@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* height: 100vh; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.max {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.cov {
+    background-color: #1E223A;
+    padding-top: 60px;
+    width: 100%;
+    min-height: 250px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    max-width: 350px;
+    color: #464964;
+}
+
+.text h1 {
+    color: #3ED1A4;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.text p {
+    color: #464964;
+}
+
+span {
+    color: white;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 15px 10px;
+    min-width: 90%;
+    color: white;
+    background-color: #3556DE;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(96, 121, 222, 1);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(96, 121, 222, 1);
+    box-shadow: 0px 0px 6px 1px rgba(96, 121, 222, 1);
+}
+
+.btn p {
+    font-weight: 400;
+}
+
+.flex {
+    max-width: 70%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .fa-solid {
+    font-size: 23px;
+    color: white;
+} */
+
+@media (min-width:700px) {
+    .text {
+        justify-content: center;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .cov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        max-width: 600px;
+        min-height: auto;
+    }
+
+    .bg {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    img{
+        max-height: 500px;
+        min-width: 600px;
+
+    }
+
+    .btn {
+        margin-top: 50px;
+        min-width: 300px;
+    }
+
+    .flex {
+        max-width: 70%;
+    }
+}
